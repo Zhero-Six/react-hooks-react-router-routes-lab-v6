@@ -1,12 +1,24 @@
-span {
-    margin: 0px 2px;
-}
-
-article {
-    border: solid 1px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  article {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
     border-radius: 5px;
-    margin: 5px;
-    max-width: 350px;
-    box-sizing: border-box;
-    padding: 5px;
-}
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  p, span {
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
